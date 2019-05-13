@@ -31,6 +31,7 @@ obj-$(CONFIG_VIRTIO_SCSI) += virtio-scsi-pci.o
 obj-$(CONFIG_VIRTIO_BLK) += virtio-blk-pci.o
 obj-$(CONFIG_VIRTIO_NET) += virtio-net-pci.o
 obj-$(CONFIG_VIRTIO_SERIAL) += virtio-serial-pci.o
+obj-$(CONFIG_VIRTIO_SND) += virtio-snd-pci.o
 endif
 else
 common-obj-y += vhost-stub.o
